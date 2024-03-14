@@ -1,0 +1,8 @@
+{
+    // enable phpcs sniffer
+    "phpsab.fixerEnable": true,
+    "editor.formatOnSave": true,
+    // "[php]": {
+    //     "editor.defaultFormatter": "valeryanm.vscode-phpsab",
+    // }
+}

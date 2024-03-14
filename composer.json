@@ -1,0 +1,17 @@
+{
+  "name": "myvendor/my-plugin",
+  "autoload": {
+    "psr-4": {
+      "FossaForms\\": "includes/FossaForms/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "require-dev": {
+    "wp-coding-standards/wpcs": "^3.0",
+    "squizlabs/php_codesniffer": "^3.9"
+  }
+}
