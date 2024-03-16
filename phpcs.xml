@@ -3,18 +3,26 @@
   <description>Created with the PHP Coding Standard Generator.
     http://edorian.github.com/php-coding-standard-generator/
   </description>
+
+
+  <!-- format with 2 spaces -->
+  <rule ref="Generic.WhiteSpace.ScopeIndent">
+    <properties>
+      <property name="indent" value="2" />
+      <property name="tabIndent" value="false" />
+    </properties>
+  </rule>
+
   <rule ref="Generic.CodeAnalysis.EmptyStatement" />
   <rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie" />
   <rule ref="Generic.Metrics.NestingLevel" />
   <rule ref="Generic.NamingConventions.UpperCaseConstantName" />
   <rule ref="Generic.PHP.DeprecatedFunctions" />
   <rule ref="Generic.PHP.LowerCaseConstant" />
-  <rule ref="Generic.WhiteSpace.DisallowTabIndent" />
   <rule ref="PEAR.Commenting.ClassComment" />
   <rule ref="PEAR.Commenting.FunctionComment" />
   <rule ref="PEAR.ControlStructures.ControlSignature" />
   <rule ref="PEAR.Functions.ValidDefaultValue" />
-  <rule ref="PEAR.WhiteSpace.ScopeIndent" />
   <rule ref="Squiz.PHP.DisallowMultipleAssignments" />
   <rule ref="Squiz.PHP.GlobalKeyword" />
   <rule ref="Squiz.PHP.NonExecutableCode" />
@@ -22,7 +30,7 @@
   <rule ref="Squiz.Scope.MethodScope" />
   <rule ref="Squiz.Scope.StaticThisUsage" />
   <rule ref="Squiz.WhiteSpace.ControlStructureSpacing" />
-  <rule ref="Squiz.WhiteSpace.FunctionClosingBraceSpace" />
+  <!-- <rule ref="Squiz.WhiteSpace.FunctionClosingBraceSpace" /> -->
   <rule ref="Squiz.WhiteSpace.FunctionOpeningBraceSpace" />
   <rule ref="Squiz.WhiteSpace.FunctionSpacing">
     <properties>
@@ -38,8 +46,6 @@
   <rule ref="Squiz.WhiteSpace.ScopeKeywordSpacing" />
   <rule ref="Squiz.WhiteSpace.SemicolonSpacing" />
   <rule ref="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword" />
-
-  <!-- Include the standards you want to use -->
 
 
 </ruleset>

@@ -1,21 +1,9 @@
 <?php
-namespace FossaForms;
-
-class Bootstrap
+class FF_Bootstrap
 {
 
-    public static function init($henk = "") {
-        $test = ['hoi' => "asdasd"];
-        print( $test[ 'hoi' ]);
-
-        if (true) {
-            echo "true";
-        }
-
-        if (false) {
-            echo "false";
-        }
-
-    }
+  public static function init($henk = "") {
+      
+  }
 
 }
